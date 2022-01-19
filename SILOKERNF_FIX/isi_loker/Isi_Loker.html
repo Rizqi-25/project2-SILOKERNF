@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>SILOKERNF</title>
+
+	<meta name="description" content="Source code generated using layoutit.com">
+	<meta name="author" content="LayoutIt!">
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/theme.css" type="text/css">
+
+</head>
+
+<body>
+
+	<div class="container-fluid" style="padding: 20px; margin: auto;">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center" style="margin-bottom: 30px;">Sistem Informasi Lowongan Kerja NF - SILOKERNF</h1>
+				<ul class="breadcrumb">
+					<li class="breadcrumb-item"> <a href="../landing_page.html">Home</a> </li>
+					<li class="breadcrumb-item active"><a href="../lowongan_baru/lowongan_baru.html">Lowongan Baru</a> </li>
+					<li class="breadcrumb-item active"><a href="./Isi_Loker.html">Isi Loker</a></li>
+					<li class="breadcrumb-item active"><a href="#">Daftar mitra</a></li>
+					<li class="breadcrumb-item active"><a href="../landing_page.html">Berita</a></li>
+					<form
+						class="form-inline d-flex flex-column justify-content-end align-items-end flex-grow-1 mr-5 ml-5">
+						<div class="input-group">
+							<input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Search">
+							<div class="input-group-append"><button class="btn btn-primary" type="button">Go<i
+										class="fa fa-search"></i></button></div>
+							<span> </span>
+						</div>
+					</form>
+					<a class="btn btn-link" href="../login/login.html">login</a>
+				</ul>
+			</div>
+		</div>
+
+
+		<form role="form" style="border: solid 0.5px; margin: auto; padding: 20px; border-radius: 5px;">
+			<legend>Isi Penawaran Lowongan Kerja Anda</legend>
+			<form>
+				<div class="form-group row">
+					<label for="text" class="col-4 col-form-label">Nama Perusahaan/Organisasi :</label>
+					<div class="col-8">
+						<input id="text" name="text" type="text" class="form-control">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="select" class="col-4 col-form-label">Bidang Usaha :</label>
+					<div class="col-8">
+						<select id="select" name="select" class="custom-select">
+							<option value="None"></option>
+							<option value="Perbankan">Perbankan</option>
+							<option value="Pertambangan">Pertambangan</option>
+							<option value="Telekomunikasi">Telekomunikasi</option>
+							<option value="Lainnya">Lainnya</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="textarea" class="col-4 col-form-label">Deskripsi Lowongan :</label>
+					<div class="col-8">
+						<textarea id="textarea" name="textarea" cols="40" rows="5" class="form-control"></textarea>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="textarea1" class="col-4 col-form-label">Deskripsi Kualifikassi Lowongan :</label>
+					<div class="col-8">
+						<textarea id="textarea1" name="textarea1" cols="40" rows="5" class="form-control"></textarea>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label class="col-4">Kategori Lowongan :</label>
+					<div class="col-8">
+						<div class="custom-control custom-checkbox custom-control-inline">
+							<input name="checkbox" id="checkbox_0" type="checkbox" checked="checked"
+								class="custom-control-input" value="rabbit">
+							<label for="checkbox_0" class="custom-control-label">Web Progammer</label>
+						</div>
+						<div class="custom-control custom-checkbox custom-control-inline">
+							<input name="checkbox" id="checkbox_1" type="checkbox" class="custom-control-input"
+								value="duck">
+							<label for="checkbox_1" class="custom-control-label">Frontend Dev</label>
+						</div>
+						<div class="custom-control custom-checkbox custom-control-inline">
+							<input name="checkbox" id="checkbox_2" type="checkbox" class="custom-control-input"
+								value="fish">
+							<label for="checkbox_2" class="custom-control-label">Backend Dev</label>
+						</div>
+						<div class="custom-control custom-checkbox custom-control-inline">
+							<input name="checkbox" id="checkbox_2" type="checkbox" class="custom-control-input"
+								value="fish">
+							<label for="checkbox_2" class="custom-control-label">Cyber Security</label>
+						</div>
+						<div class="custom-control custom-checkbox custom-control-inline">
+							<input name="checkbox" id="checkbox_2" type="checkbox" class="custom-control-input"
+								value="fish">
+							<label for="checkbox_2" class="custom-control-label">Data Scientist</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="date" class="col-4 col-form-label">Tanggal Dateline :</label>
+					<div class="col-8">
+						<input id="date" name="date" type="date" class="form-control">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="text1" class="col-4 col-form-label">Kontak Person :</label>
+					<div class="col-8">
+						<input id="text1" name="text1" type="text" class="form-control">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="text2" class="col-4 col-form-label">Email</label>
+					<div class="col-8">
+						<input id="text2" name="text2" type="text" class="form-control" placeholder="Email@gmail.com">
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="offset-4 col-8">
+						<button name="submit" type="submit" class="btn btn-primary">Submit</button>
+						<button name="reset" type="reset" class="btn btn-link">Reset</button>
+					</div>
+				</div>
+			</form>
+			<hr>
+			<footer class="d-flex justify-content-between align-items-center p-3">
+				<p><b>SILOKERNF</b> Created By <b>DINGNGODING</b> | 2022</p>
+				<div class="supports">
+				</div>
+			</footer>
+
+			<script src="js/jquery.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/scripts.js"></script>
+</body>
+
+</html>
